@@ -30,7 +30,7 @@ jobs:
         with:
           # The root LaTeX file to be compiled
           root_file: main.tex
-          post_compile: mkdir build/ && cp ./main.pdf build/ && cp ./main.html build/
+          post_compile: mkdir build/ && cp ./main.pdf build/ && cp ./index.html build/
       
       - name: Deploy to pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
